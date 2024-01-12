@@ -1,4 +1,4 @@
-![Docker](image_8.png)
+![Docker](image8.png)
 
 # Working with PostgreSQL in Docker: A Beginner's Guide
 
@@ -29,7 +29,7 @@ First, we need to get the PostgreSQL image from Docker Hub.
 
 Great! You should now see the PostgreSQL image in the `Images` tab of Docker.
 
-![PostgreSQL Image in Docker](image_1.png)
+![PostgreSQL Image in Docker](image1.png)
 
 ---
 
@@ -40,12 +40,12 @@ Docker containers are ephemeral, meaning they don't retain data when turned off.
 1. Go to the `Volumes` tab in Docker Desktop.
 2. Click on `Create a Volume`.
 
-   ![Create Volume](image_3.png)
+   ![Create Volume](image3.png)
 
 3. Name your volume `postgres_data` for easy identification.
 4. Click `Create`.
 
-   ![Name and Create Volume](image_4.png)
+   ![Name and Create Volume](image4.png)
 
 ---
 
@@ -86,15 +86,15 @@ Time to test our setup with DataGrip.
 
 1. Open DataGrip and add a new data source.
 
-   ![Add New Data Source](image_5.png)
+   ![Add New Data Source](image5.png)
 
 2. Enter the connection details from Part 3.
 
-   ![Enter Connection Details](image_6.png)
+   ![Enter Connection Details](image6.png)
 
 3. Test the connection. If everything is set up correctly, it should work!
 
-   ![Successful Connection](image_7.png)
+   ![Successful Connection](image7.png)
 
 Congratulations! You now have a functioning PostgreSQL database running in Docker.
 
@@ -115,8 +115,8 @@ Happy coding and data managing! 🚀
 
 <table>
   <tr>
-    <td align="center"><img alt="DataGrip" height="32" src="image_9.png"/></td>
-    <td align="center"><img alt="Docker" height="32" src="image_10.png"/></td>
-    <td align="center"><img alt="PostgreSQL" height="32" src="image_11.png"/></td>
+    <td align="center"><img alt="DataGrip" height="32" src="image9.png"/></td>
+    <td align="center"><img alt="Docker" height="32" src="image10.png"/></td>
+    <td align="center"><img alt="PostgreSQL" height="32" src="image11.png"/></td>
   </tr>
 </table>
